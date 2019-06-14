@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mySplashScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFE">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="215dp"
+        android:layout_height="156dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/fb"
+        app:srcCompat="@drawable/fb" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="Because the Main App sucks"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3949AB"
+        android:textSize="18sp" />
+
+</RelativeLayout>
